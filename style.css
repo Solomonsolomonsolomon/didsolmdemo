@@ -1,0 +1,219 @@
+body{
+    font-family: Rajdhani;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.navbarlogo img{
+   width: 100px;
+  
+}
+.navbarlogo{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel img{
+   
+    border: 3px solid rgb(9, 107, 9);
+    border-radius: 10px;
+    width:100%;
+    max-height: 450px;
+    border-radius: 20px;
+
+}
+.categoriesh1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+background:linear-gradient(to left,#140166,rgb(228, 90,     113));
+    color: white;
+}
+.cart img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    
+}
+.scrolling-text {
+    font-weight: 900;
+     white-space: nowrap;
+     overflow: hidden;
+     animation: scroll 10s linear infinite;
+   }
+
+   @keyframes scroll {
+     0% { transform: translateX(100%); }
+     100% { transform: translateX(-100%); }
+   }
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom:15px;
+}
+form input{
+    width: 80%;
+  
+   
+}
+.newsletter input{
+    padding:10px;
+}
+form button{
+    padding: 10px;
+}
+
+.carousel{
+    margin-bottom: 20px;
+}
+
+.various-categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    gap: 10px;
+   
+}
+
+.categoryflex h1{
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+  }
+  .cart img{
+    width: 50px;
+    position: absolute;
+    right: 4px;
+    top: 35px;
+  }
+  .newsletter{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .newsletter h1{
+    text-align: center;
+  }
+  footer{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    padding: 20px;
+    background:linear-gradient(to left,#140166,rgb(228, 90,     113));;
+  }
+ marquee{
+    font-size: 25px;
+ }
+  .categoryflex{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    border: 1px solid;
+    height: 200px;
+    width: 100%;
+    display: block;
+    background:rgb(255, 248, 248);
+    border-radius: 10px;
+  }
+.img{
+    height: 300px;
+}
+img{
+    padding: 10px;
+}
+.cart img{
+    right: 1px;
+}
+.carousel img{
+    border: none;
+}
+
+
+@media(max-width:767px){
+    .carousel img{
+        height: 160px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    .scrolling-text {
+       font-weight: 900;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: scroll 10s linear infinite;
+      }
+  
+      @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+  form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+  form input{
+    width: 80%;
+    border: 1px solid;
+  }
+  form button{
+    padding: 10px;
+    font-family: Rajdhani,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+  }
+  .categoryflex{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    height: 120px;
+    width: 100%;
+    display: block;
+    background:rgb(255, 248, 248);
+  }
+  .various-categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  .categoryflex h1{
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+  }
+  .cart img{
+    width: 50px;
+    position: absolute;
+    right: 4px;
+    top: 35px;
+  }
+  .newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    padding: 20px;
+    background:linear-gradient(to left,#140166,rgb(228, 90,     113));;
+  }
+  .img{
+    height: auto;
+  }
+}
